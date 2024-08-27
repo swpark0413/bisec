@@ -8,7 +8,7 @@ Author: Kwangmin Lee [aut],
   Jaeyong Lee [aut]
 Maintainer: Sewon Park <swpark0413@gmail.com>
 Description: More about what it does (maybe more than one line)
-License: GPL-2
+License: GPL-3
 Imports: Rcpp (>= 1.0.12), hdbinseg, purrr, progress, CholWishart, magrittr
 LinkingTo: Rcpp, RcppArmadillo, RcppEigen
 RoxygenNote: 7.2.3
