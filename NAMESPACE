@@ -1,0 +1,18 @@
+useDynLib(bisec, .registration=TRUE)
+
+export(predict.bpcr)
+export(spikedEIG)
+export(spikedBPCR)
+export(estimate)
+S3method(predict,bpcr)
+S3method(estimate,bpcr)
+S3method(estimate,beig)
+
+importFrom(Rcpp, evalCpp)
+importFrom(abind, abind)
+importFrom(CholWishart,rInvWishart)
+importFrom(magrittr,`%>%`)
+importFrom(progress,progress_bar)
+importFrom(purrr,map)
+importFrom(hdbinseg, get.factor.model)
+importFrom(pracma, gramSchmidt)
