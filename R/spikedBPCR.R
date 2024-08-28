@@ -47,6 +47,7 @@
 #' @importFrom progress progress_bar
 #' @importFrom purrr map
 #' @importFrom magrittr `%>%`
+#' @import Rcpp
 #' @export
 #' @examples
 #'

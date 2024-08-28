@@ -1,15 +1,15 @@
 Package: bisec
 Type: Package
 Title: Bayesian Inference on Spiked Eigenstructure of High-Dimensional Covariances
-Version: 1.0
+Version: 1.0.0
 Date: 2024-08-18
 Author: Kwangmin Lee [aut],
   Sewon Park [aut, cre],
   Jaeyong Lee [aut]
 Maintainer: Sewon Park <swpark0413@gmail.com>
-Description: More about what it does (maybe more than one line)
-License: GPL-2
-Imports: Rcpp (>= 1.0.12), hdbinseg, purrr, progress, CholWishart, magrittr
+Description: This package implements Bayesian inference for estimating spiked eigenstructures of high-dimensional covariance matrices.  By applying an inverse-Wishart prior to the covariance matrix, the package provides posterior distributions for eigenvalues and eigenvectors. Additionally, it offers a method for Bayesian principal component regression (PCR). This approach accounts for uncertainties in principal scores, thereby improving the interval estimation of regression coefficients in high-dimensional settings. 
+License: GPL-3
+Imports: Rcpp (>= 1.0.12), hdbinseg, purrr, progress, CholWishart, magrittr, pracma, abind
 LinkingTo: Rcpp, RcppArmadillo, RcppEigen
 RoxygenNote: 7.2.3
 Encoding: UTF-8

@@ -5,13 +5,16 @@
 #' @param object An object from \strong{spikedEIG} and \strong{spikedBPCR}.
 #' @param prob A numeric scalar in the interval (0,1) giving the target probability content of the intervals. The nominal probability content of the intervals is the multiple of 1/nrow(obj) nearest to prob.
 #' @param orthogonal A logical value indicating whether to ensure the orthogonality of the posterior mean of the eigenvectors.
-#'
+#' @param ... Additional arguments passed to or from other methods.
 #'
 #' @return An array (or matrix) containing the lower and upper bounds of the credible interval, as well as the posterior mean.
 #'
 #' @author Sewon Park
 #' @seealso \code{spikedEIG} and \code{spikedBPCR}
 #' @importFrom magrittr `%>%`
+#' @importFrom abind abind
+#' @importFrom pracma gramSchmidt
+#' @importFrom stats quantile
 #' @export
 #'
 #' @examples
