@@ -27,7 +27,7 @@ devtools::install_github("swpark0413/bisec")
 
 #### Option 2: Install from a bundled package.
 
-First, download a bundled package from the [releases](https://github.com/swpark0413/bisec/releases) page. Then, install it using the command below:
+First, download a bundled package from the [Releases](https://github.com/swpark0413/bisec/release) page. Then, install it using the command below:
 
 ``` R
 # Replace "~/path/bisec_0.0.0.tar.gz" with the path to your downloaded file
