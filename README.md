@@ -56,7 +56,7 @@ set.seed(413)
 X <- MASS::mvrnorm(n = n, mu = rep(0, p), Sigma = Sigma0)
 
 # estimate eigenvalues and eigenvectors:
-res <- bisec::spikedEIG(X = X, K = 4,prior = list(nu = (p+2), A = diag(2, p)), nsample = 100)
+res <- bisec::spikedEIG(X = X, K = 4, prior = list(nu = (p+2), A = diag(2, p)), nsample = 100)
 est <- bisec::estimate(res)
 ```
 
