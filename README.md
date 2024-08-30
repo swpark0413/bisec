@@ -89,5 +89,5 @@ If you use the bisec package in your research, please cite the following paper:
 ### License
 -------
 
-The package is distributed under the GPL-3.0 license. See the `LICENSE` file for more details
+The package is distributed under the GPL-3.0 license. See the [`LICENSE`](https://github.com/swpark0413/bisec/blob/main/LICENSE) file for more details
 
