@@ -69,7 +69,7 @@ If you use the bisec package in your research, please cite the following paper:
 
 - Kwangmin Lee, Sewon Park, Seongmin Kim and Jaeyong Lee.
   Posterior asymptotics of high-dimensional spiked covariance model with inverse-Wishart prior.
-  arXiv preprint arXiv:2412.10753 (2024).
+  arXiv preprint arXiv:2412.10753.
 
 <!-- BibTeX citation:
 ``` bibtex
