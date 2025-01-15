@@ -67,9 +67,9 @@ est <- bisec::estimate(res)
 
 If you use the bisec package in your research, please cite the following paper:
 
-- Kwangmin Lee, Sewon Park, and Jaeyong Lee.
-  Bayesian inference on spiked eigenstructure of high-dimensional covariances.
-  arXiv preprint arXiv:24xx.xxxxx (2024).
+- Kwangmin Lee, Sewon Park, Sungmin Kim and Jaeyong Lee.
+  Posterior asymptotics of high-dimensional spiked covariance model with inverse-Wishart prior.
+  arXiv preprint arXiv:2412.10753 (2024).
 
 <!-- BibTeX citation:
 ``` bibtex
