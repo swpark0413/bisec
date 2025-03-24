@@ -5,6 +5,7 @@ Version: 1.0.0
 Date: 2024-08-18
 Author: Kwangmin Lee [aut],
   Sewon Park [aut, cre],
+  Seongmin Kim [aut],
   Jaeyong Lee [aut]
 Maintainer: Sewon Park <swpark0413@gmail.com>
 Description: This package implements Bayesian inference for estimating spiked eigenstructures of high-dimensional covariance matrices.  By applying an inverse-Wishart prior to the covariance matrix, the package provides posterior distributions for eigenvalues and eigenvectors. Additionally, it offers a method for Bayesian principal component regression (PCR). This approach accounts for uncertainties in principal scores, thereby improving the interval estimation of regression coefficients in high-dimensional settings. 
