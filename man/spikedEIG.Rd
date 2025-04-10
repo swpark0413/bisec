@@ -73,7 +73,7 @@ res <- bisec::spikedEIG(X = X, K = 4,prior = list(nu = (p+2), A = diag(2, p)), n
 }
 \references{
 Lee, K., Park, S., and Lee, J. (2024+), "Bayesian inference on spiked eigenstructure of high-dimensional covariances",
-	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2101.12179}.
+	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2412.10753}.
 }
 \seealso{
 \code{estimate}
