@@ -47,7 +47,7 @@ To estimate the top \eqn{K} eigenvectors \eqn{\bm{\Gamma}}, the coefficients of 
 \item \eqn{f_{\bm{\beta}}(\bm{\Sigma})}: Multiplies \eqn{f_{\bm{\Gamma}}(\bm{\Sigma})} and \eqn{f_{\bm{\eta}}(\bm{\Sigma})} to estimate the regression coefficients \eqn{\bm{\beta}}.
 }
 These functions transform the initial posterior samples of \eqn{\bm{\Sigma}} into samples for the posterior distributions of \eqn{\bm{\Gamma}}, \eqn{\bm{\eta}}, and \eqn{\bm{\beta}}, thereby providing estimates of these key components under the spiked covariance model.
-For more details, see Lee, Park, and Lee (2024+).
+For more details, see Lee et al. (2024+).
 }
 \examples{
 
