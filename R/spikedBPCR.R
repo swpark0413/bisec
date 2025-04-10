@@ -2,7 +2,7 @@
 #'
 #' Performs a Bayesian principal component regression on a given data matrix, assuming a spiked covariance structure.
 #'
-#' Lee, Park, and Lee (2024+) proposed a post-processed posterior method for Bayesian principal component regression (PCR).
+#' Lee et al. (2024+) proposed a post-processed posterior method for Bayesian principal component regression (PCR).
 #' Given that the data \eqn{\boldsymbol{Z}_1, \ldots, \boldsymbol{Z}_n} are generated from a multivariate normal distribution \eqn{N_{p+1}(\boldsymbol{0}_{p+1}, \boldsymbol{\Sigma})}, where the covariance matrix \eqn{\boldsymbol{\Sigma}} includes both the response variable \eqn{Y} and the predictors \eqn{\boldsymbol{X}}.
 #' An inverse-Wishart prior \eqn{IW_{p+1}(\bm{A}_n, \nu_n)} is imposed on \eqn{\boldsymbol{\Sigma}}, leading to a posterior distribution from which initial samples are generated.
 #'
@@ -39,8 +39,8 @@
 #' @seealso \code{estimate} and \code{predict.bpcr}
 #' @keywords spiked covariance and Bayesian PCR
 #'
-#' @references Lee, K., Park, S., and Lee, J. (2024+), "Bayesian inference on spiked eigenstructure of high-dimensional covariances",
-#' 	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2101.12179}.
+#' @references Lee, K., Park, S., Kim, S. and Lee, J. (2024+), "Posterior asymptotics of high-dimensional spiked covariance model with inverse-Wishart prior",
+#' 	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2412.10753}.
 #'
 #' @importFrom hdbinseg get.factor.model
 #' @importFrom CholWishart rInvWishart

@@ -2,26 +2,26 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 innerprod <- function(A, B) {
-    .Call(`_bisec_innerprod`, A, B)
+    .Call('_bisec_innerprod', PACKAGE = 'bisec', A, B)
 }
 
 arma_matmul <- function(A, B) {
-    .Call(`_bisec_arma_matmul`, A, B)
+    .Call('_bisec_arma_matmul', PACKAGE = 'bisec', A, B)
 }
 
 splitList1 <- function(L) {
-    .Call(`_bisec_splitList1`, L)
+    .Call('_bisec_splitList1', PACKAGE = 'bisec', L)
 }
 
 splitList2 <- function(L) {
-    .Call(`_bisec_splitList2`, L)
+    .Call('_bisec_splitList2', PACKAGE = 'bisec', L)
 }
 
 splitList3 <- function(L) {
-    .Call(`_bisec_splitList3`, L)
+    .Call('_bisec_splitList3', PACKAGE = 'bisec', L)
 }
 
 Eigen_eig <- function(A) {
-    .Call(`_bisec_Eigen_eig`, A)
+    .Call('_bisec_Eigen_eig', PACKAGE = 'bisec', A)
 }
 

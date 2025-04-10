@@ -2,7 +2,7 @@
 #'
 #' Provides posterior samples for both eigenvalues and eigenvectors of a spiked covariance matrix.
 #'
-#' Lee, Park, and Lee (2024+) proposed a Bayesian method for estimating the spiked eigenstructure of a covariance matrix,
+#' Lee et al. (2024+) proposed a Bayesian method for estimating the spiked eigenstructure of a covariance matrix,
 #' focusing on the top \eqn{K} eigenvalues and eigenvectors. The method transforms the posterior distribution of the covariance matrix
 #' into the posterior distributions of its top \eqn{K} eigenvalues \eqn{[\lambda_k(\boldsymbol{\Sigma}) \mid \mathbb{X}_n]}
 #' and eigenvectors \eqn{[\boldsymbol{\xi}_k(\boldsymbol{\Sigma}) \mid \mathbb{X}_n]}, where \eqn{\mathbb{X}_n} denotes the \eqn{n} observations.
@@ -42,8 +42,8 @@
 #' @seealso \code{estimate}
 #' @keywords spiked covariance
 #'
-#' @references Lee, K., Park, S., and Lee, J. (2024+), "Bayesian inference on spiked eigenstructure of high-dimensional covariances",
-#' 	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2101.12179}.
+#' @references Lee, K., Park, S., Kim, S. and Lee, J. (2024+), "Posterior asymptotics of high-dimensional spiked covariance model with inverse-Wishart prior",
+#' 	\emph{Arxiv}, URL: \url{https://arxiv.org/abs/2412.10753}.
 #'
 #' @importFrom hdbinseg get.factor.model
 #' @importFrom CholWishart rInvWishart
