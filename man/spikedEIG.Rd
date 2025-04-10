@@ -48,7 +48,7 @@ The algorithm for generating posterior samples from \eqn{[\lambda_k(\bm\Sigma) \
 \bm\xi_k(\bm\Sigma_1),\ldots ,\bm\xi_k (\bm\Sigma_N),
 } for \eqn{k=1,\ldots ,K}.
 }
-For more details, see Lee, Park, and Lee (2024+).
+For more details, see Lee et al. (2024+).
 }
 \examples{
 
